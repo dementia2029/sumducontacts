@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center_horizontal"
+    tools:context="com.dementia.sumdu.activity.SplashActivity">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/splash_1"
+            android:textSize="39sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="59dp"
+        android:textColor="@android:color/white"
+        android:text="@string/splash_2"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

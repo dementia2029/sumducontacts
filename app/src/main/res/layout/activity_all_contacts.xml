@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/recycler_background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dementia.sumdu.activity.AllContactsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:background="@color/colorPrimary"
+        android:id="@+id/toolbarBack3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"/>
+
+    <LinearLayout
+        android:layout_below="@id/toolbarBack3"
+        android:background="?android:colorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.dementia.sumdu.library.PinnedHeaderListView
+            android:id="@+id/list8"
+            android:scrollbars="none"
+            android:fastScrollAlwaysVisible="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:dividerHeight="0px"
+            android:fadeScrollbars="false"
+            android:fastScrollEnabled="true"
+            android:listSelector="@drawable/listview_selector"
+            android:scrollingCache="false"
+            tools:listitem="@layout/listview_item"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

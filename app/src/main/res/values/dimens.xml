@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="list_item__contact_imageview_size">55dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="title_margin_end">64dp</dimen>
+    <dimen name="title_margin_start">24dp</dimen>
+    <dimen name="title_margin_bottom">32dp</dimen>
+    <dimen name="card_elevation_default">2dp</dimen>
+    <dimen name="toolbar_shadow_height">2dp</dimen>
+    <dimen name="card_radius_default">1dp</dimen>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="margin_0_5x">8dp</dimen>
+    <dimen name="margin_0_5x_revert">-8dp</dimen>
+    <dimen name="card_radius">1dp</dimen>
+    <dimen name="margin_0_25x">4dp</dimen>
+    <dimen name="margin_2x">32dp</dimen>
+    <dimen name="margin_1_5x">24dp</dimen>
+    <dimen name="card_padding_default">@dimen/margin_default</dimen>
+</resources>

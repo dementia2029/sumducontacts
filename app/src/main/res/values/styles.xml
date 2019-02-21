@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="PinnedHeader">
+        <item name="android:background">?android:colorBackground</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CustomTitleText" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="CardStyle" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="DefaultCardStyle" parent="CardStyle">
+        <item name="cardElevation">@dimen/card_elevation_default</item>
+        <item name="cardCornerRadius">@dimen/card_radius</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+</resources>
